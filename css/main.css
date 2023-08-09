@@ -494,6 +494,10 @@ header#header-bar nav ul li a:hover:after {
     margin-bottom: 1.5rem;
 }
 
+#contact form label {
+    display: none;
+}
+
 
 #contact #contact-info .contact-detail {
     -webkit-box-flex: 1;
@@ -530,7 +534,7 @@ header#header-bar nav ul li a:hover:after {
     gap: 1rem;
 }
 
-#contact #contact-info .contact-detail i {
+#contact #contact-info .contact-detail .icon {
     font-size: 4rem;
     color: var(--color-primary-2);
 }
@@ -586,7 +590,7 @@ footer .top-footer .contact-info {
     flex: 1;
 }
 
-footer .top-footer .menu, footer .top-footer .contact-info i {
+footer .top-footer .menu, footer .top-footer .contact-info .icon {
     margin-right: 0.5rem;
 }
 

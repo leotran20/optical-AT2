@@ -19,7 +19,7 @@
     <nav class="flex">
         <input type="checkbox" id="menu-button">
         <label for="menu-button" class="toggle">
-            <i class="icon icon-menu"></i>
+            <span class="icon icon-menu"></span>
         </label>
         <ul onclick="document.getElementById('menu-button').checked = false;">
             <li><a href="#">Home</a></li>
@@ -43,10 +43,10 @@
     </section>
 
     <section id="about" class="main-section">
-        <header class="section-header flex flex-column">
+        <article class="section-header flex flex-column">
             <h2>About Us</h2>
             <p>Home > About Us</p>
-        </header>
+        </article>
 
         <section class="flex main-content">
             <div class="flex flex-column">
@@ -71,10 +71,10 @@
 
 
     <section id="services" class="main-section">
-        <header class="section-header flex flex-column">
+        <article class="section-header flex flex-column">
             <h2>Services</h2>
             <p>Home > Services</p>
-        </header>
+        </article>
 
         <section class="flex flex-column main-content">
             <h2>Our services</h2>
@@ -270,12 +270,12 @@
     </section>
 
     <section id="contact" class="main-section">
-        <header class="section-header flex flex-column">
+        <article class="section-header flex flex-column">
             <h2>Contact Us</h2>
             <article>
                 <p>Home > Contact Us</p>
             </article>
-        </header>
+        </article>
 
         <section class="main-content">
             <div class="card fom-wrapper">
@@ -290,8 +290,11 @@
                     </div>
                     <div class="flex form-container">
                         <form>
+                            <label for="name">Name</label>
                             <input id="name" class="" type="text" placeholder="Name">
+                            <label for="email">Email</label>
                             <input id="email" class="" type="email" placeholder="Email">
+                            <label for="message">Message</label>
                             <textarea id="message" class="" placeholder="Message"></textarea>
                             <button type="submit" class="flex btn" onclick="alert('You message has been sent!')">Send a
                                 Message
@@ -308,7 +311,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="flex">
-                                    <i class="icon icon-location"></i>
+                                    <span class="icon icon-location"></span>
                                 </div>
                                 <div class="flex">
                                     <p>Our premises are within The Myer Centre in the Queen Street Mall on Level 1, Shop
@@ -319,7 +322,7 @@
                         <article class="card">
                             <div class="card-body">
                                 <div class="flex">
-                                    <i class="icon icon-phone"></i>
+                                    <span class="icon icon-phone"></span>
                                 </div>
                                 <div class="flex">
                                     <a href="tel:0732567101">07 3256 7101</a>
@@ -329,7 +332,7 @@
                         <article class="card trading-hours">
                             <div class="card-body">
                                 <div class="flex">
-                                    <i class="icon icon-calendar"></i>
+                                    <span class="icon icon-calendar"></span>
                                 </div>
                                 <div class="flex flex-column">
                                     <h3>Our Trading Hours</h3>
@@ -387,11 +390,11 @@
                 <ul>
                     <li>
                         <p>
-                            <i class="icon icon-location"></i>Queen Street Mall on Level 1, Shop number 36
+                            <span class="icon icon-location"></span>Queen Street Mall on Level 1, Shop number 36
                         </p>
                     </li>
                     <li>
-                        <i class="icon icon-phone"></i><a href="tel:0732567101">07 3256 7101</a>
+                        <span class="icon icon-phone"></span><a href="tel:0732567101">07 3256 7101</a>
                     </li>
                 </ul>
             </section>
