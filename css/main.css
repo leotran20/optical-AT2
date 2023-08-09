@@ -105,7 +105,7 @@ ul {
     color: var(--color-primary-1) !important;
 }
 
-.top-section {
+.section-header {
     height: 250px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -123,7 +123,7 @@ ul {
     margin-bottom: 5rem;
 }
 
-.top-section:before {
+.section-header:before {
     content: '';
     display: block;
     position: absolute;
@@ -134,7 +134,7 @@ ul {
     opacity: 0.5;
 }
 
-.top-section h2, .top-section article {
+.section-header h2, .section-header article {
     z-index: 1;
 }
 
@@ -363,7 +363,7 @@ header#header-bar nav ul li a:hover:after {
     width: fit-content;
 }
 
-#about > .top-section:before {
+#about > .section-header:before {
     background-image: url("../assets/images/david-travis-aVvZJC0ynBQ-unsplash.jpg");
     background-position: center;
     background-size: cover;
@@ -394,7 +394,7 @@ header#header-bar nav ul li a:hover:after {
     margin-bottom: 0;
 }
 
-#services > .top-section:before {
+#services > .section-header:before {
     background-image: url("../assets/images/joseph-greve-dPw0N01onxE-unsplash.jpg");
     background-position: 0 75%;
     background-size: cover;
@@ -449,7 +449,7 @@ header#header-bar nav ul li a:hover:after {
 }
 
 
-#contact > .top-section:before {
+#contact > .section-header:before {
     background-image: url("../assets/images/volodymyr-hryshchenko-NQQ_WKbjMZ0-unsplash.jpg");
     background-position: 0 90%;
     background-size: cover;
