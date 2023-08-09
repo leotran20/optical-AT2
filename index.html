@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="favicon.ico"/>
+    <link rel="icon" href="favicon.ico">
     <meta name="description" content="TODO">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
@@ -14,10 +14,10 @@
 <body>
 <header id="header-bar">
     <a href="#" id="logo" class="flex">
-        <img src="assets/images/logo.png" alt="logo"/>
+        <img src="assets/images/logo.png" alt="logo">
     </a>
     <nav class="flex">
-        <input type="checkbox" id="menu-button"/>
+        <input type="checkbox" id="menu-button">
         <label for="menu-button" class="toggle">
             <i class="icon icon-menu"></i>
         </label>
@@ -35,32 +35,37 @@
 <main>
 
     <section id="home" class="main-section">
-        <article class="flex flex-column">
+        <div class="flex flex-column">
             <h1 class="flex">We sell ophthalmic glasses, sunglasses and contact lenses.</h1>
             <h1 class="flex">We specialise in optical requirements for children.</h1>
             <button type="button" class="flex btn" onclick="window.location.href='#about'">Learn More</button>
-        </article>
+        </div>
     </section>
 
     <section id="about" class="main-section">
-        <section class="top-section">
-            <article class="flex flex-column">
-                <h2>About Us</h2>
+        <section class="top-section flex flex-column">
+            <h2>About Us</h2>
+            <article>
                 <p>Home > About Us</p>
             </article>
         </section>
 
         <section class="flex main-content">
-            <article class="flex flex-column">
+            <div class="flex flex-column">
                 <h1>Best Optometrist That You Can Trust</h1>
-                <p>We are a Brisbane based company which is well regarded locally.</p>
-                <p>We are recognised as being able to manage children’s needs with a professional caring approach.</p>
-                <p>We employ two full-time, in-store qualified optometrists able to diagnose and treat a number of eye
-                    related problems.</p>
-                <p>Our optometrists strive to make a positive difference to the health and well-being of our customers,
-                    endeavoring to obtain the best visual outcome so that customers realise their full potential in
-                    work, study, sport and leisure.</p>
-            </article>
+                <article>
+                    <p>We are a Brisbane based company which is well regarded locally.</p>
+                    <p>We are recognised as being able to manage children’s needs with a professional caring
+                        approach.</p>
+                    <p>We employ two full-time, in-store qualified optometrists able to diagnose and treat a number of
+                        eye
+                        related problems.</p>
+                    <p>Our optometrists strive to make a positive difference to the health and well-being of our
+                        customers,
+                        endeavoring to obtain the best visual outcome so that customers realise their full potential in
+                        work, study, sport and leisure.</p>
+                </article>
+            </div>
             <picture class="flex">
                 <img src="assets/images/adolfo-felix-tRIx_NfMNYA-unsplash.jpg" alt="about">
             </picture>
@@ -70,9 +75,9 @@
 
 
     <section id="services" class="main-section">
-        <section class="top-section">
-            <article class="flex flex-column">
-                <h2>Services</h2>
+        <section class="top-section flex flex-column">
+            <h2>Services</h2>
+            <article>
                 <p>Home > Services</p>
             </article>
         </section>
@@ -267,26 +272,30 @@
     </section>
 
     <section id="contact" class="main-section">
-        <section class="top-section">
-            <article class="flex flex-column">
-                <h2>Contact Us</h2>
+        <section class="top-section flex flex-column">
+            <h2>Contact Us</h2>
+            <article>
                 <p>Home > Contact Us</p>
             </article>
         </section>
 
         <section class="main-content">
-            <section class="card fom-wrapper">
+            <div class="card fom-wrapper">
                 <div class="card-body flex-row">
-                    <article class="flex flex-column text-container">
+                    <div class="flex flex-column text-container">
                         <h1>Get In Touch</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </article>
+                        <article>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </article>
+                    </div>
                     <div class="flex form-container">
                         <form>
-                            <input id="name" class="" type="text" placeholder="Name"/>
-                            <input id="email" class="" type="email" placeholder="Email"/>
+                            <input id="name" class="" type="text" placeholder="Name">
+                            <input id="email" class="" type="email" placeholder="Email">
                             <textarea id="message" class="" placeholder="Message"></textarea>
                             <button type="submit" class="flex btn" onclick="alert('You message has been sent!')">Send a
                                 Message
@@ -295,9 +304,9 @@
                     </div>
                 </div>
 
-            </section>
+            </div>
 
-            <section id="contact-info" class="flex">
+            <div id="contact-info" class="flex">
                 <div class="flex contact-info__wrapper">
                     <div class="contact-detail flex flex-column">
                         <article class="card">
@@ -352,21 +361,23 @@
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
     </section>
 
 </main>
 
 <footer class="flex flex-column">
-    <section class="flex top-footer">
+    <div class="flex top-footer">
         <div class="top-footer__wrapper flex flex-row">
             <section class="more flex flex-column">
                 <h4>More About Us</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                    ullamcorper mattis, pulvinar dapibus leo.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </article>
             </section>
             <section class="menu flex flex-column">
                 <h4>Menu</h4>
@@ -380,20 +391,26 @@
             <section class="contact-info flex flex-column">
                 <h4>Contact Information</h4>
                 <ul>
-                    <li><p><i class="icon icon-location"></i>Queen Street Mall on Level 1, Shop number 36</p></li>
-                    <li><i class="icon icon-phone"></i><a href="tel:0732567101">07 3256 7101</a></li>
+                    <li>
+                        <p>
+                            <i class="icon icon-location"></i>Queen Street Mall on Level 1, Shop number 36
+                        </p>
+                    </li>
+                    <li>
+                        <i class="icon icon-phone"></i><a href="tel:0732567101">07 3256 7101</a>
+                    </li>
                 </ul>
             </section>
         </div>
-    </section>
-    <section class="flex flex-row bottom-footer">
-        <div class="flex">
+    </div>
+    <aside class="flex flex-row bottom-footer">
+        <article class="flex">
             <p>&copy; Copyright 2023 ABC Optical. All rights reserved | Design by Leo Tran</p>
-        </div>
-        <div class="flex bottom-footer__right">
+        </article>
+        <article class="flex bottom-footer__right">
             <a href="">Privacy Policy</a> | <a href="">Terms & Conditions</a>
-        </div>
-    </section>
+        </article>
+    </aside>
 </footer>
 
 
