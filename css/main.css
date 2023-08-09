@@ -251,6 +251,10 @@ header#header-bar #logo img {
     display: none;
 }
 
+#header-bar #menu-button label {
+    font-size: 0;
+}
+
 #header-bar #menu-button + .toggle {
     cursor: pointer;
 }
@@ -307,11 +311,11 @@ header#header-bar #logo img {
     transform: scale(0);
 }
 
-header#header-bar nav ul li a:hover {
+#header-bar nav ul li a:hover {
     color: var(--color-primary-1) !important;
 }
 
-header#header-bar nav ul li a:hover:after {
+#header-bar nav ul li a:hover:after {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
