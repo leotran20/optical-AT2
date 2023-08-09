@@ -169,7 +169,7 @@ ul {
 
 .card > img {
     width: 100%;
-    height: 50%;
+    height: 250px;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
@@ -251,7 +251,7 @@ header#header-bar #logo img {
     display: none;
 }
 
-#header-bar #menu-button label {
+#header-bar #menu-button + label {
     font-size: 0;
 }
 
@@ -628,6 +628,8 @@ footer .bottom-footer__right {
 
 footer .bottom-footer__right a {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 
