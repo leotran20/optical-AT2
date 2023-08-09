@@ -17,19 +17,16 @@
         <img src="assets/images/logo.png" alt="logo">
     </a>
     <nav class="flex">
-        <form>
-            <input type="checkbox" id="menu-button" title="menu">
-            <label for="menu-button" class="toggle">
-
-                <span class="icon icon-menu"></span>
-            </label>
-            <ul onclick="document.getElementById('menu-button').checked = false;">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </form>
+        <input type="checkbox" id="menu-button">
+        <label for="menu-button" aria-label="menu" class="toggle">
+            <span class="icon icon-menu"></span>
+        </label>
+        <ul onclick="document.getElementById('menu-button').checked = false;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
     </nav>
 
 
@@ -338,7 +335,7 @@
                                     <span class="icon icon-calendar"></span>
                                 </div>
                                 <div class="flex flex-column">
-                                    <h3>Our Trading Hours</h3>
+                                    <p>Our Trading Hours</p>
                                     <ul>
                                         <li>
                                             <p>Mon – Thurs: 9am - 5.30pm</p>
