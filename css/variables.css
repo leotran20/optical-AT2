@@ -12,8 +12,14 @@
     --contrast-color-2: #BC6C25;
 
     --spacing-header: 58px;
-    --spacing-wrapper: 6em;
+    --spacing-wrapper: 2rem;
     --line-height: 1.5;
 
     --font-family: "Poppins", "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 1280px) {
+    :root {
+        --spacing-wrapper: 6rem;
+    }
 }
