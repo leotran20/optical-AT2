@@ -504,6 +504,7 @@ header#header-bar #logo img {
 #contact .main-content .fom-wrapper .card-body {
     gap: 2rem;
     padding: 3rem 4rem;
+    flex-direction: column;
 }
 
 #contact .text-container {
@@ -719,6 +720,10 @@ footer .bottom-footer__right a {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
+    }
+
+    #contact .main-content .fom-wrapper .card-body {
+        f;flex-direction: row;
     }
 }
 
