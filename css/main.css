@@ -453,7 +453,7 @@ header#header-bar #logo img {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
+    flex-flow: column;
     width: 100%;
 }
 
@@ -461,9 +461,6 @@ header#header-bar #logo img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
     max-height: 1000px;
 }
 
@@ -712,6 +709,16 @@ footer .bottom-footer__right a {
 
     #header-bar nav ul a {
         color: var(--dark-color) !important;
+    }
+
+    #services ul.service-list {
+        flex-flow: row wrap;
+    }
+
+    #services ul.service-list li.list-item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
     }
 }
 
