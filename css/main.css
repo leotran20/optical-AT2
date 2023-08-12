@@ -723,7 +723,7 @@ footer .bottom-footer__right a {
     }
 
     #contact .main-content .fom-wrapper .card-body {
-        f;flex-direction: row;
+        flex-direction: row;
     }
 }
 
