@@ -362,7 +362,7 @@ header#header-bar #logo img {
     background-image: url("../assets/images/thomas-park-KYEeuGUkZ54-unsplash.jpg");
     height: 100%;
     width: 100%;
-    background-position: 10% 5rem;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-box-align: start;
@@ -675,6 +675,10 @@ footer .bottom-footer__right a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #home {
+        background-position: 10% 5rem;
+    }
+
     #menu-button + label {
         display: none !important;
     }
