@@ -482,11 +482,11 @@ header#header-bar #logo img {
 #services ul.service-list li.list-item .card img {
     -webkit-transition: width 0.2s ease-in-out;
     -o-transition: width 0.2s ease-in-out;
-    transition: width 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 #services ul.service-list li.list-item .card:hover > img {
-    width: 110%;
+    transform: scale(1.2);
 }
 
 
