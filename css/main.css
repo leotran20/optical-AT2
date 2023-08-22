@@ -3,6 +3,7 @@
 @import "variables.css";
 @import "icons.css";
 
+/* styles applied for element tags */
 * {
     scroll-behavior: smooth !important;
 }
@@ -59,6 +60,8 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+/* styles applied for common classes which used multiple times in the project */
 
 .flex {
     display: -webkit-box;
@@ -224,6 +227,7 @@ ul {
     color: var(--contrast-color-2);
 }
 
+/* styles applied for specific sections using their IDs */
 
 #header-bar {
     display: -webkit-box;
@@ -359,7 +363,7 @@ header#header-bar #logo img {
 
 
 #home {
-    background-image: url("../assets/images/thomas-park-KYEeuGUkZ54-unsplash.jpg");
+    background-image: url("../images/thomas-park-KYEeuGUkZ54-unsplash.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -404,7 +408,7 @@ header#header-bar #logo img {
 }
 
 #about > .section-header:before {
-    background-image: url("../assets/images/david-travis-aVvZJC0ynBQ-unsplash.jpg");
+    background-image: url("../images/david-travis-aVvZJC0ynBQ-unsplash.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -435,7 +439,7 @@ header#header-bar #logo img {
 }
 
 #services > .section-header:before {
-    background-image: url("../assets/images/joseph-greve-dPw0N01onxE-unsplash.jpg");
+    background-image: url("../images/joseph-greve-dPw0N01onxE-unsplash.jpg");
     background-position: 0 75%;
     background-size: cover;
 }
@@ -487,7 +491,7 @@ header#header-bar #logo img {
 
 
 #contact > .section-header:before {
-    background-image: url("../assets/images/volodymyr-hryshchenko-NQQ_WKbjMZ0-unsplash.jpg");
+    background-image: url("../images/volodymyr-hryshchenko-NQQ_WKbjMZ0-unsplash.jpg");
     background-position: 0 90%;
     background-size: cover;
 }
@@ -644,7 +648,7 @@ footer .top-footer .menu li a {
 
 footer .bottom-footer {
     background-color: var(--gray-color);
-    height: 60px;
+    min-height: 60px;
     width: 100%;
 }
 
@@ -726,6 +730,8 @@ footer .bottom-footer__right a {
         flex-direction: row;
     }
 }
+
+/* responsive behaviors */
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {

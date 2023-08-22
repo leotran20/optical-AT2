@@ -1,12 +1,16 @@
+/*
+This file is including variables using in the project,
+such as color, spacing and font family.
+There are also the styles applied for responsive layout
+*/
+
 :root {
-    --white-color: #f7f4f3ff;
-    --white-color-2: #FEFAE0;
+    --white-color: #f7f4f3;
     --color-primary: #606C38;
     --color-primary-1: #82A52A;
     --color-primary-2: #60810E;
-    --color-primary-3: #283618;
 
-    --dark-color: #1e1e24ff;
+    --dark-color: #1e1e24;
     --gray-color: #6d6d6d;
     --contrast-color: #DDA15E;
     --contrast-color-2: #BC6C25;
